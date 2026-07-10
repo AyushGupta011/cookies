@@ -1,12 +1,14 @@
 "use client";
+import React from 'react';
 import { motion } from "framer-motion";
 
 interface AnimatedTextProps {
   text: string;
   className?: string;
+  style?: React.CSSProperties;
 }
 
-export const AnimatedText = ({ text, className = "" }: AnimatedTextProps) => {
+export const AnimatedText = ({ text, className = "", style }: AnimatedTextProps) => {
   const characters = Array.from(text);
 
   const container = {
@@ -36,6 +38,7 @@ export const AnimatedText = ({ text, className = "" }: AnimatedTextProps) => {
   return (
     <motion.h1
       className={className}
+      style={style}
       variants={container}
       initial="hidden"
       whileInView="visible"
