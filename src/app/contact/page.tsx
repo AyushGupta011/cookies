@@ -15,7 +15,7 @@ export default function Contact() {
         
         <form className="space-y-6 bg-white p-8 md:p-12 rounded-3xl shadow-xl border border-[#8B5A2B]/5">
           <div>
-            <label className="block text-[#8B5A2B] font-bold mb-2">お名前 (FULL NAME)</label>
+            <label className="block text-[#8B5A2B] font-bold mb-2">お名前</label>
             <input 
               type="text" 
               className="w-full bg-[#FDFBF7] border border-[#D2A679]/30 rounded-xl px-4 py-4 focus:outline-none focus:ring-2 focus:ring-[#8B5A2B] transition-all text-[#5A4A42]"
@@ -23,7 +23,7 @@ export default function Contact() {
             />
           </div>
           <div>
-            <label className="block text-[#8B5A2B] font-bold mb-2">メールアドレス (EMAIL ADDRESS)</label>
+            <label className="block text-[#8B5A2B] font-bold mb-2">メールアドレス</label>
             <input 
               type="email" 
               className="w-full bg-[#FDFBF7] border border-[#D2A679]/30 rounded-xl px-4 py-4 focus:outline-none focus:ring-2 focus:ring-[#8B5A2B] transition-all text-[#5A4A42]"
@@ -34,7 +34,7 @@ export default function Contact() {
             type="button" 
             className="w-full bg-[#8B5A2B] hover:bg-[#5A4A42] text-white font-bold py-4 rounded-xl transition-colors mt-8"
           >
-            送信する (SUBMIT)
+            送信する
           </button>
         </form>
       </div>
